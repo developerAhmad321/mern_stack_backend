@@ -1,1 +1,1 @@
-export const my_db = "myDataBase"
+export const my_db = "nodeJS"

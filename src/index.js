@@ -2,11 +2,11 @@ import { app } from "./app.js";
 import connectDB from "./db/index.js";
 import dotenv from "dotenv"
 
-dotenv.config({
-    path: "./env"
-})
+dotenv.config({ path: "../.env" });
 
-
+// console.log("PORT:", process.env.PORT);
+// console.log("MONGODB_URI:", process.env.MONGODB_URI);
+// console.log("ACCESS_TOKEN_SECRET:", process.env.ACCESS_TOKEN_SECRET);
 
 connectDB()
 .then(() => {
